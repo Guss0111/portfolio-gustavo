@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Gustavo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container text-center my-4">
+        <img src="img/avatar-gustavo.png" alt="Avatar do Gustavo" class="rounded-circle" width="150" height="150">
+        <h1>Gustavo - Desenvolvedor Front-end</h1>
+        <p class="lead">Apaixonado por tecnologia e carros inteligentes.</p>
+        <p>Desenvolvo interfaces com HTML, CSS e JavaScript. Confira meu projeto de sistema para controle de carro!</p>
+        <div>
+            <span class="badge bg-secondary">HTML</span>
+            <span class="badge bg-secondary">CSS</span>
+            <span class="badge bg-secondary">JavaScript</span>
+            <span class="badge bg-secondary">IoT</span>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="mb-4">Projeto em Destaque</h2>
+        <div class="card">
+            <img src="img/projeto-carro.png" class="card-img-top" alt="Interface do sistema de carro inteligente">
+            <div class="card-body">
+                <h5 class="card-title">Sistema de Controle de Carro Inteligente</h5>
+                <p class="card-text">
+                    Projeto de uma interface de controle de um carro inteligente via navegador. Permite ligar/desligar o motor, acender faróis, acionar buzina e monitorar o status do veículo. Desenvolvido com HTML, CSS e JavaScript puro.
+                </p>
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalCarro">Ver detalhes</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalCarro" tabindex="-1" aria-labelledby="modalCarroLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalCarroLabel">Sistema de Carro Inteligente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este sistema simula um painel de controle de um carro utilizando JavaScript para interação dinâmica. Inclui:</p>
+                    <ul>
+                        <li>Botões para ligar/desligar o motor</li>
+                        <li>Faróis controlados digitalmente</li>
+                        <li>Buzina com efeito sonoro</li>
+                        <li>Indicadores de status atual</li>
+                    </ul>
+                    <p>Ideal para estudos de prototipagem em IoT e interfaces veiculares.</p>
+                    <img src="img/projeto-carro.png" class="img-fluid mt-3" alt="Tela do projeto do carro">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/gustavo-dev/carro-inteligente" class="btn btn-outline-secondary" target="_blank">Ver código</a>
+                    <a href="https://gustavo-dev.github.io/carro-inteligente" class="btn btn-outline-primary" target="_blank">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5 text-center">
+        <h2>Entre em contato</h2>
+        <p>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/gustavo-dev" target="_blank">GitHub</a>
+        </p>
+        <p class="mt-4">© 2025 - Gustavo | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+🎨 CSS (style.css)
+css
+Copiar
+Editar
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+
+:root {
+    --cor-principal: #003049;
+    --cor-secundaria: #D62828;
+    --cor-destaque: #F77F00;
+    --cor-fundo: #f8f9fa;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+.lead {
+    color: var(--cor-secundaria);
+    font-weight: 500;
+}
+
+a, .btn-link {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+a:hover, .btn-link:hover {
+    color: var(--cor-secundaria);
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+css
+Copiar
+Editar
+carro-portfolio/
+├── index.html
+├── style.css
+├── img/
+│   ├── avatar-gustavo.png
+│   └── projeto-carro.png
