@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio do Gustavo</title>
+    <title>Portfólio do Nicolas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="container text-center my-4">
-        <img src="img/avatar-gustavo.png" alt="Avatar do Gustavo" class="rounded-circle" width="150" height="150">
+        <img src="img/avatar-nicolas.png" alt="Avatar do Gustavo" class="rounded-circle" width="150" height="150">
         <h1>Gustavo - Desenvolvedor Front-end</h1>
         <p class="lead">Apaixonado por tecnologia e carros inteligentes.</p>
         <p>Desenvolvo interfaces com HTML, CSS e JavaScript. Confira meu projeto de sistema para controle de carro!</p>
@@ -56,8 +56,8 @@
                     <img src="img/projeto-carro.png" class="img-fluid mt-3" alt="Tela do projeto do carro">
                 </div>
                 <div class="modal-footer">
-                    <a href="https://github.com/gustavo-dev/carro-inteligente" class="btn btn-outline-secondary" target="_blank">Ver código</a>
-                    <a href="https://gustavo-dev.github.io/carro-inteligente" class="btn btn-outline-primary" target="_blank">Ver projeto ao vivo</a>
+                    <a href="https://github.com/nicolas-dev/carro-inteligente" class="btn btn-outline-secondary" target="_blank">Ver código</a>
+                    <a href="https://nicolas-dev.github.io/carro-inteligente" class="btn btn-outline-primary" target="_blank">Ver projeto ao vivo</a>
                 </div>
             </div>
         </div>
@@ -67,9 +67,9 @@
         <h2>Entre em contato</h2>
         <p>
             <i class="bi bi-github"></i>
-            <a href="https://github.com/gustavo-dev" target="_blank">GitHub</a>
+            <a href="https://github.com/nucolas-dev" target="_blank">GitHub</a>
         </p>
-        <p class="mt-4">© 2025 - Gustavo | Todos os direitos reservados</p>
+        <p class="mt-4">© 2025 - nicolas | Todos os direitos reservados</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
